@@ -1,4 +1,7 @@
 header {
     background-color: #424E61;                      
-    color: aquamarine;
+    color: rgb(245, 245, 245);
+}
+.logo {
+    width: 30%;
 }
