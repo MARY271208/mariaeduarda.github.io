@@ -8,6 +8,9 @@
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030c; 
 }
+body {
+    background-color: #000;
+}
 .principal {
     background-image: url('acobertura.avif');
     background-repeat:no-repeat;
@@ -18,10 +21,22 @@
 
 .container {
     height:  100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 
 .container_botao {
-    background-color: rgb(167, 32, 32);
+    background-color: rgb(77, 14, 14);
     border-radius: 10%;
     padding: 15px;
+    color: var(--branco-principal);
+    display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2xp solid var(--branco-principal);
+}
+h1 {
+    color: #ffffff;
 }
